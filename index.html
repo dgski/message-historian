@@ -1,0 +1,182 @@
+<!doctype html>
+<html>
+    <head>
+        <title>
+            iMessage and SMS History Viewer
+        </title>
+
+        <style>
+            body {
+                margin: 0px;
+                font-family: Arial, Helvetica, sans-serif;
+                --main-color: darkslategrey;
+                --header-bg-color: azure;
+            }
+
+            h1 {
+                margin: 0px;
+                margin-bottom: 10px;
+            }
+            
+            .heading {
+                background-color: var(--header-bg-color);
+                color: var(--main-color);
+                text-align: center;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                font-size: 1.2em;
+            }
+
+            .info-helper {
+                width: 100%;
+                text-align: center;
+                background-color: var(--main-color);
+            }
+
+            .info {
+                text-align: left;
+                width: 700px;
+                display: inline-block;
+                color: white;
+                font-size: 20px;
+            }
+
+            li {
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+
+            .header-content {
+                display: inline-flex;
+                width: 700px;
+            }
+            .call-to-action {
+                text-align: center;
+                padding-bottom: 20px;
+                padding-top: 20px;
+                background-color: var(--header-bg-color);
+            }
+
+            .call-to-action-link {
+                background-color: var(--main-color);
+                font-size: 24px;
+                text-decoration: none;
+                color: white;
+                padding: 10px;
+                display: inline-block;
+                border-radius: 0.35em;
+            }
+
+            .call-to-action-link:hover {
+                background-color: black;
+            }
+
+            .content-helper {
+                text-align: center;
+                width: 100%;
+            }
+
+            .content {
+                width: 700px;
+                display: inline-block;
+                text-align: left;
+                line-height: 1.5em;
+                font-size: 18px;
+                padding-top: 30px;
+            }
+
+            .screenshot {
+                border-radius: 5px;
+                box-shadow: 0px 0px 5px 1px rgb(141, 141, 141);
+            }
+
+            @media only screen and (max-device-width: 1200px){
+
+                h1 {
+                    font-size: 5em;
+                }
+
+                em {
+                    font-size: 3em;
+                }
+
+                img {
+                    max-width: 100%;
+                }
+
+                .info {
+                    width: 100%;
+                    padding-left: 20px;
+                    padding-right: 20px;
+                    width: calc(100% - 40px);
+                    font-size: 3em;
+                }
+
+                .content {
+                    width: calc(100% -  40px);
+                    font-size: 3em;
+                    padding: 20px;
+                }
+
+                .call-to-action-link {
+                    font-size: 64px;
+                    padding: 20px;
+                    margin: 20px;
+                }
+            }
+        </style>
+
+
+    </head>
+    <body>
+        <div class="heading">
+            <h1>Message Historian</h1>
+            <em>Simple and Fast iMessage Viewer (In-Development)</em>
+            <br>
+            <br>
+            <br>
+            <img src="main.png" class="screenshot" style="margin-right: 40px;">
+            <img src="convo.png" class="screenshot">
+            <br>
+        </div>
+        <div class="call-to-action">
+            <a class="call-to-action-link" href="https://docs.google.com/forms/d/e/1FAIpQLSeNRedlC7GTWv4ipWnMHcDKMtaUZSAOkNUkDaYej9N7eihfvA/viewform?usp=sf_link">
+                I Want This App
+            </a>
+        </div>
+        <div class="info-helper">
+
+            <div class="info">
+                <ul>
+                    <li>Fast and Lightweight.</li>
+                    <li>Complete Search Results; unlike iMessage.</li>
+                    <li>Calendar Tool to access Messages from an Exact Date.</li>
+                    <li>Simple and Cross-Platform.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="content-helper">
+            <div class="content">
+                <h2>iMessage Search Sucks</h2>
+                <p>
+                    I recently switched from Android to iPhone. I like it so far, but the message search functions on iPhone are frustrating! When I search something I only get one result per contact. What if I need some important information from old messages or want to re-visit a pleasant memory?
+                </p>
+                <p>
+                    On Android I used an application called <a href="https://play.google.com/store/apps/details?id=com.textra&hl=en_CA">Textra</a> which allowed me to search through my whole message history easily. If I searched "dog", for example, I would get a list of all messages that contain "dog"; No exceptions. I could also use a Calendar feature to view messages from specific days. I miss it. The iPhone platform has limitations so no application could replicate it on-device.
+                </p>
+                <p>
+                    Messages can be backed up or synced with a Desktop, so instead, I searched the internet for a cheap,sime and responsive viewer for Messages on Desktop. I could not find anything. None of them had a simple interface that does one thing well: Show Me My Message History!
+                </p>
+                <p>
+                    As a Software Developer, I have decided to investigate making an application myself. But time is valuable and I would like to see if other people would find this useful as well. Please let me know with with the <a href="https://docs.google.com/forms/d/e/1FAIpQLSeNRedlC7GTWv4ipWnMHcDKMtaUZSAOkNUkDaYej9N7eihfvA/viewform?usp=sf_link">Message Historian Feedback Form </a>.
+                </p>
+                <p>
+                    Thanks for taking the time to read this!
+                </p>
+                <p>
+                    - David
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
